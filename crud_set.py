@@ -1,4 +1,4 @@
-set_countries = {'col', 'ven', 'per'}
+set_countries = {'col', 'ven', 'per', 'par'}
 size = len(set_countries)
 print('Cantidad de elementos del conjunto', size)
 
