@@ -1,3 +1,4 @@
+# By Wilson Cortes Alvarez
 set_countries = {'col', 'ven', 'per', 'par'}
 size = len(set_countries)
 print('Cantidad de elementos del conjunto', size)
@@ -18,7 +19,8 @@ size = len(set_countries)
 print('Cantidad de elementos del conjunto', size)
 print(set_countries)
 
-# Eliminar elemento del conjunto, sino existe no genera error
+# Eliminar elemento del conjunto, tenga en cuenta que
+# sino existe no genera error, el anterior codigo si lo mostraria
 set_countries.discard('eeuu')
 size = len(set_countries)
 print('Cantidad de elementos del conjunto', size)
